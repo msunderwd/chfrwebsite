@@ -1,0 +1,49 @@
+.mapbox {
+position: relative;
+width: 600px;
+background-color: #FFFFFF;
+margin-top: 20px;
+margin-bottom: 30px;
+margin-left: auto;
+margin-right: auto;
+border-style: solid;
+padding: 20px;
+clear: left;
+}
+
+.mapimage {
+width: 100%;
+}
+
+img.icon {
+width: 100px;
+float: left;
+margin-right: 20px;
+margin-bottom: 20px;
+}
+
+.block_content {
+clear: left;
+margin-top: 10px;
+}
+
+.rules {
+clear: left;
+margin-top: 10px;
+}
+
+.roster:after {
+content: " "; 
+display: block; 
+clear: both;
+}
+
+.roster a {
+color: #000000;
+text-decoration: none;
+}
+
+.roster a:hover, .roster a:active {
+color: #0000FF;
+text-decoration: underline;
+}

@@ -1,0 +1,34 @@
+    <?php include("headlines.html"); ?>
+
+
+<script type="text/javascript">
+window.onload = rotate;
+var theAd = 0;
+var adImages = new Array("images/P1110220.JPG",
+"images/P1110793.JPG",
+"images/P1100771.jpg",
+"images/P1100791.jpg",
+"images/P1110261.JPG",
+"images/P1110286.JPG"
+);
+
+var adText = new Array("On my honor...",
+"I will do my best...",
+"To do my duty...",
+"To God and My Country...",
+"To obey the Scout Law...",
+"To help other people at all times...",
+"To keep myself physically strong...");
+
+function rotate() {
+    theAd++;
+    if (theAd == adImages.length) {
+        theAd = 0;
+    }
+    document.getElementById("slideshow").src = adImages[theAd];
+    document.getElementById("slidetext").innerHTML = adText[theAd];
+
+    setTimeout(rotate, 3*1000);
+}
+</script>
+

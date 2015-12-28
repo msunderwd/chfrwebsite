@@ -1,0 +1,21 @@
+#content {
+  position:absolute;
+  left:175px;
+  top:100px;
+  min-width: 640px;
+  padding-left: 10px;
+  background-color: #f5daa3;
+}
+
+.page_subhead {
+  border-style: groove;
+  color: #f5daa3;
+  background-color: #202532;
+  text-align: center;
+  font-size: x-large;
+  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
